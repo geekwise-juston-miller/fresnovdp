@@ -17,3 +17,13 @@ body{
     background-position: center;
     
 }
+#donate_button{
+    float: right;
+    position:relative;
+    right: 17rem;
+    width: 8rem;
+    height: 3.6rem;
+    border: solid .5rem white;
+    background-color: #f4b21b;
+    
+}
