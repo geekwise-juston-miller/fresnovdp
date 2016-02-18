@@ -1,0 +1,19 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%
+    height: 80rem;
+    font-size: 62.5%;
+    box-sizing: border-box;
+    background-color: #1c2162;
+   
+}
+
+body{
+        background-image:url(http://i.imgur.com/BCke3jM.jpg);
+    background-size: 80rem 60rem;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-position: center;
+    
+}
