@@ -1,6 +1,7 @@
 html, body{
     margin: 0;
     padding: 0;
+    width: 100%;
     font-size: 62.5%;
     box-sizing: border-box;
     background-color: #1c2162;
@@ -12,12 +13,28 @@ header{
     margin: 0;
     padding: 0;
     font-size: 1.8rem;
+    background-color: palegreen;
     
 }
 
 section{
     margin: 0;
     padding: 0;
-    height: 12rem;
+    height: 11.5rem;
     background-color: #f4b21b;
+}
+
+section > span{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    clear: both;
+}
+
+section > span > img{
+    margin: 0;
+    padding: 0;
+    width: calc(230px/2);
+    
 }
