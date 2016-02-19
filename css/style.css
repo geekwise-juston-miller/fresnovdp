@@ -94,3 +94,29 @@ nav > ul > li > a:hover{
     text-decoration:underline;
     background-color:#8598a9;
 }
+
+main{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    
+}
+
+#table_mont{
+    margin: 0;
+    padding 0;
+    float:left;
+    font-size: 2.5rem;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+#soldier_img{}
+
+#donate{
+    margin: 0;
+    padding: 0;
+    float: right;
+    
+}
