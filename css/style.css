@@ -8,6 +8,12 @@ html, body{
    
 }
 
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
 header{
     width: 100%;
     margin: 0;
@@ -45,9 +51,8 @@ section > span > img{
 }
 
 #navy_logo > img{
-    float:right;
+    float: right;
 }
-
 
 section > nav{
     margin:0;
@@ -69,16 +74,17 @@ nav > ul{
     margin:0 auto;
     padding:0;
     text-align:center;
+    
 }
 
 nav > ul > li{
     margin:0;
     padding:0;
     display:inline;
-    line-height:11.5rem;
+    line-height:normal;
     width:calc(100%/5);
     height:11.5rem;
-    float:left
+    float:left;
 }
 
 nav > ul > li > a{
@@ -88,6 +94,7 @@ nav > ul > li > a{
     width:100%;
     text-decoration:none;
     color:#ffffff;
+    margin-top: 3.5rem;
 }
 
 nav > ul > li > a:hover{
@@ -99,36 +106,56 @@ main{
     margin: 0;
     padding: 0;
     width: 100%;
+    display: inline-block;
     text-align: center;
+    margin-top: 5rem;
+    
+}
+
+main > span{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
     
 }
 
 #table_mont{
     margin: 0;
     padding 0;
-    float:left;
-    font-size: 2.5rem;
-    color: #000000;
-    background-color: #ffffff;
+    width: 20%;
+    float: left;
+    
 }
 
-#soldier_img{}
+#flag_img{
+    margin: 0;
+    padding: 0;
+    width: 60%;
+}
 
 #donate{
     margin: 0;
     padding: 0;
+    width: 20%;
     float: right;
-    position: relative;
-    padding-top: 5rem;
-    padding-right: 8rem;
-    
-    }
+}
 
 article{
+    margin: 0;
+    padding: 0;
+    
+}
+
+article > p > em{
+    text-align: center;
+    display: block;
+}
+
+article > p{
     padding: 0;
     margin: 0;
     width: 40rem;
-    height: 30rem;
     color: #000000;
     background-color: #ffffff;
     display: block;
