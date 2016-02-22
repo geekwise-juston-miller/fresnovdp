@@ -129,16 +129,41 @@ main > span{
 }
 
 #flag_img{
-    margin: 0;
+    margin-left: 40px;
     padding: 0;
     width: 60%;
 }
 
 #donate{
-    margin: 0;
+    margin-right: 40px; 
     padding: 0;
     width: 20%;
     float: right;
+}
+
+div{
+    position: absolute;
+    top: 275px;
+    right: 73.5px;
+    width: 180px;
+    height: 400px;
+    padding: 5px;
+    display: block;
+    
+}
+
+div > span{
+    margin-bottom: 10px;
+    padding: 0;
+    background: #f4f4f4;
+    font-size: 1.6rem;
+    display: block;
+    border-style: solid;
+    border-width: 1rem;
+    border-color: goldenrod;
+    border-radius: .5rem;
+    
+    
 }
 
 article{
