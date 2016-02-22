@@ -11,6 +11,7 @@ html, body{
 body{
     margin: 0;
     padding: 0;
+    text-align: center;
     
 }
 
@@ -169,21 +170,47 @@ div > span{
 article{
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 30rem;
     
-}
-
-article > p > em{
-    text-align: center;
-    display: block;
 }
 
 article > p{
     padding: 0;
     margin: 0;
     width: 40rem;
+    height: 25rem;
     color: #000000;
     background-color: #ffffff;
+    display:inline-block;
+    font-size: 2.1rem;
+    border-style: solid;
+    border-width: 1rem;
+    border-color: goldenrod;
+    border-radius: .5rem;
+    
+}
+article > p > em{
+    margin: 0;
+    padding: 0;
+    text-align: center;
     display: block;
-    font-size: 2rem;
+}
+
+footer{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 4rem;
+    font-size: 1.6rem;
+    display: block;
+    
+}
+footer > span{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border: box;
+    color: #ffffff;
     
 }
