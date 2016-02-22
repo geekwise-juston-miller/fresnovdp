@@ -11,7 +11,6 @@ html, body{
 body{
     margin: 0;
     padding: 0;
-    text-align: center;
     
 }
 
@@ -168,35 +167,34 @@ div > span{
 }
 
 article{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    width: 100%;
-    height: 30rem;
+    width: 80%;
+    border-style: solid;
+    border-width: 1rem;
+    border-color: goldenrod;
+    border-radius: .5rem;
+    background-color: #ffffff;
+    font-size: 2rem
     
 }
 
 article > p{
     padding: 0;
-    margin: 0;
     width: 100%;
-    height: 40rem;
     color: #000000;
     background-color: #ffffff;
-    display:inline-block;
-    font-size: 1.2
+    font-size: 1.7rem;
+    text-indent: 3rem;
+
 /*
-    border-style: solid;
-    border-width: 1rem;
-    border-color: goldenrod;
-    border-radius: .5rem;
-*/
-    
-}
 article > p > em{
     margin: 0;
     padding: 0;
     text-align: center;
     display: block;
+}
+*/
 }
 
 footer{
@@ -206,6 +204,7 @@ footer{
     height: 4rem;
     font-size: 1.6rem;
     display: block;
+    text-align: center;
     
 }
 footer > span{
