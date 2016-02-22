@@ -8,6 +8,13 @@ html, body{
    
 }
 
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+
 header{
     width: 100%;
     margin: 0;
@@ -45,9 +52,8 @@ section > span > img{
 }
 
 #navy_logo > img{
-    float:right;
+    float: right;
 }
-
 
 section > nav{
     margin:0;
@@ -69,16 +75,17 @@ nav > ul{
     margin:0 auto;
     padding:0;
     text-align:center;
+    
 }
 
 nav > ul > li{
     margin:0;
     padding:0;
     display:inline;
-    line-height:11.5rem;
+    line-height:normal;
     width:calc(100%/5);
     height:11.5rem;
-    float:left
+    float:left;
 }
 
 nav > ul > li > a{
@@ -88,9 +95,122 @@ nav > ul > li > a{
     width:100%;
     text-decoration:none;
     color:#ffffff;
+    margin-top: 3.5rem;
 }
 
 nav > ul > li > a:hover{
     text-decoration:underline;
     background-color:#8598a9;
+}
+
+main{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 5rem;
+    
+}
+
+main > span{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+    
+}
+
+#table_mont{
+    margin: 0;
+    padding 0;
+    width: 20%;
+    float: left;
+    
+}
+
+#map{
+    margin-left: 40px;
+    padding: 0;
+    width: 60%;
+}
+
+#donate{
+    margin-right: 40px; 
+    padding: 0;
+    width: 20%;
+    float: right;
+}
+
+div{
+    position: absolute;
+    top: 275px;
+    right: 73.5px;
+    width: 180px;
+    height: 400px;
+    padding: 5px;
+    display: block;
+    
+}
+
+div > span{
+    margin-bottom: 10px;
+    padding: 0;
+    background: #f4f4f4;
+    font-size: 1.6rem;
+    display: block;
+    border-style: solid;
+    border-width: 1rem;
+    border-color: goldenrod;
+    border-radius: .5rem;
+    
+    
+}
+
+article{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 30rem;
+    
+}
+
+article > p{
+    padding: 0;
+    margin: 0;
+    width: 40rem;
+    height: 25rem;
+    color: #000000;
+    background-color: #ffffff;
+    display:inline-block;
+    font-size: 2.1rem;
+    border-style: solid;
+    border-width: 1rem;
+    border-color: goldenrod;
+    border-radius: .5rem;
+    
+}
+article > p > em{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: block;
+}
+
+footer{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 4rem;
+    font-size: 1.6rem;
+    display: block;
+    
+}
+footer > span{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border: box;
+    color: #ffffff;
+    
 }
