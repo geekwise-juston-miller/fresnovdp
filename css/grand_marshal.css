@@ -29,6 +29,11 @@ section{
     background-color: #f4b21b;
 }
 
+img{
+    max-width: 100%;
+    height: auto;
+}
+
 section > span{
     display: inline-block;
     margin: 0;

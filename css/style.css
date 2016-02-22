@@ -7,11 +7,17 @@ html, body{
     background-color: #1c2162;
    
 }
+@media only screen and (max-width:900px){
+    main > span > #flag_img {
+        
+    }
+    }
 
 body{
     margin: 0;
     padding: 0;
     text-align: center;
+    box-sizing: border-box;
     
 }
 
@@ -28,6 +34,14 @@ section{
     padding: 0;
     height: 11.5rem;
     background-color: #f4b21b;
+}
+
+/*
+img{
+    max-width: 100%;
+    height: auto;
+    
+*/
 }
 
 section > span{
