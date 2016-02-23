@@ -1,0 +1,231 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 62.5%;
+    box-sizing: border-box;
+    background-color: #1c2162;
+   
+}
+
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+
+header{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 1.8rem;
+    
+}
+
+section{
+    margin: 0;
+    padding: 0;
+    height: 11.5rem;
+    background-color: #f4b21b;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    
+}
+
+section > span{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    clear: both;
+}
+
+section > span > img{
+    margin: 0;
+    padding: 0;
+    width: calc(230px/2);
+    
+}
+
+#navy_logo{
+    width: 20%;
+    text-align: center;
+    float: left;
+}
+
+#navy_logo > img{
+    float: right;
+}
+
+section > nav{
+    margin:0;
+    padding:0;
+    height:11.5rem;
+    background-color:#6b6c88;
+    width:60%;
+    text-align: center;
+    float:left;
+}
+
+#vet_logo > img {
+    margin:0;
+    padding:0;
+    float:left;
+}
+
+nav > ul{
+    margin:0 auto;
+    padding:0;
+    text-align:center;
+    
+}
+
+nav > ul > li{
+    margin:0;
+    padding:0;
+    display:inline;
+    line-height:normal;
+    width:calc(100%/5);
+    height:11.5rem;
+    float:left;
+}
+
+nav > ul > li > a{
+    display:inline-block;
+    margin:0;
+    padding:0;
+    width:100%;
+    text-decoration:none;
+    color:#ffffff;
+    margin-top: 3.5rem;
+}
+
+nav > ul > li > a:hover{
+    text-decoration:underline;
+    background-color:#8598a9;
+}
+
+main{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 350px;
+    display: inline-block;
+    text-align: center;
+    background-image: url("http://i.imgur.com/syPDxR7.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:cover;
+    
+}
+
+main > span{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+    
+}
+
+#table_mont{
+    margin: 0;
+    padding 0;
+    width: 20%;
+    height: auto;
+    float: left;
+    
+}
+
+
+#donate{
+    margin-right: 68px;
+    margin-top: 5rem;
+    padding: 0;
+    width: 15%;
+    height: auto;
+    float: right;
+    border-style: solid;
+    border-width: 1rem;
+    border-color: goldenrod;
+    border-radius: .5rem;
+    background-color: #ffffff;
+    
+}
+
+div{
+    position: absolute;
+    top: 275px;
+    right: 73.5px;
+    width: 15%;
+    height: auto;
+    padding: 0;
+    display: block;
+    
+}
+
+div > span{
+    margin-bottom: 10px;
+    padding: 0;
+    background: #f4f4f4;
+    font-size: 1.6rem;
+    display: block;
+    border-style: solid;
+    border-width: 1rem;
+    border-color: goldenrod;
+    border-radius: .5rem;
+    
+    
+}
+
+article{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    
+}
+
+article > p{
+    padding: 0;
+    margin: 0;
+    width: 40%;
+    height: auto;
+    color: #000000;
+    background-color: #ffffff;
+    display:inline-block;
+    font-size: 2.1rem;
+    border-style: solid;
+    border-width: 1rem;
+    border-color: goldenrod;
+    border-radius: .5rem;
+    
+}
+article > p > em{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: block;
+}
+
+footer{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 1.6rem;
+    display: block;
+    
+}
+footer > span{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border: box;
+    color: #ffffff;
+    
+}
